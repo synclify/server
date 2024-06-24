@@ -9,14 +9,14 @@ dependencies:
     specifier: ^0.5.1
     version: 0.5.1(socket.io@4.7.2)
   dotenv:
-    specifier: ^16.3.1
-    version: 16.3.1
+    specifier: ^16.4.5
+    version: 16.4.5
   socket.io:
     specifier: ^4.7.2
     version: 4.7.2
   uWebSockets.js:
     specifier: github:uNetworking/uWebSockets.js#v20.25.0
-    version: github.com/uNetworking/uWebSockets.js/e6ecc2102d68d99dc35969b0898fbd201e0f252b
+    version: git/github.com+uNetworking/uWebSockets.js/e6ecc2102d68d99dc35969b0898fbd201e0f252b
 
 devDependencies:
   '@types/node':
@@ -229,8 +229,8 @@ packages:
     engines: {node: '>=0.3.1'}
     dev: true
 
-  /dotenv@16.3.1:
-    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+  /dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
     dev: false
 
@@ -546,8 +546,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  github.com/uNetworking/uWebSockets.js/e6ecc2102d68d99dc35969b0898fbd201e0f252b:
-    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/e6ecc2102d68d99dc35969b0898fbd201e0f252b}
+  git/github.com+uNetworking/uWebSockets.js/e6ecc2102d68d99dc35969b0898fbd201e0f252b:
+    resolution: {commit: e6ecc2102d68d99dc35969b0898fbd201e0f252b, repo: git@github.com:uNetworking/uWebSockets.js.git, type: git}
     name: uWebSockets.js
     version: 20.25.0
     dev: false
