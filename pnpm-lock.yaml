@@ -25,7 +25,7 @@ importers:
         version: 4.7.5
       uWebSockets.js:
         specifier: github:uNetworking/uWebSockets.js#v20.25.0
-        version: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/e6ecc2102d68d99dc35969b0898fbd201e0f252b
+        version: git+https://git@github.com:uNetworking/uWebSockets.js.git#e6ecc2102d68d99dc35969b0898fbd201e0f252b
     devDependencies:
       '@types/node':
         specifier: ^20.12.11
@@ -35,10 +35,10 @@ importers:
         version: 3.1.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.12.11)(typescript@5.4.5)
+        version: 10.9.2(@types/node@20.12.11)(typescript@5.6.2)
       typescript:
-        specifier: ^5.4.5
-        version: 5.4.5
+        specifier: ^5.6.2
+        version: 5.6.2
 
 packages:
 
@@ -686,13 +686,13 @@ packages:
       '@swc/wasm':
         optional: true
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
-  uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/e6ecc2102d68d99dc35969b0898fbd201e0f252b:
-    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/e6ecc2102d68d99dc35969b0898fbd201e0f252b}
+  uWebSockets.js@git+https://git@github.com:uNetworking/uWebSockets.js.git#e6ecc2102d68d99dc35969b0898fbd201e0f252b:
+    resolution: {commit: e6ecc2102d68d99dc35969b0898fbd201e0f252b, repo: git@github.com:uNetworking/uWebSockets.js.git, type: git}
     version: 20.25.0
 
   undefsafe@2.0.5:
@@ -1452,7 +1452,7 @@ snapshots:
 
   tr46@0.0.3: {}
 
-  ts-node@10.9.2(@types/node@20.12.11)(typescript@5.4.5):
+  ts-node@10.9.2(@types/node@20.12.11)(typescript@5.6.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
@@ -1466,13 +1466,13 @@ snapshots:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.4.5
+      typescript: 5.6.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  typescript@5.4.5: {}
+  typescript@5.6.2: {}
 
-  uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/e6ecc2102d68d99dc35969b0898fbd201e0f252b: {}
+  uWebSockets.js@git+https://git@github.com:uNetworking/uWebSockets.js.git#e6ecc2102d68d99dc35969b0898fbd201e0f252b: {}
 
   undefsafe@2.0.5: {}
 
