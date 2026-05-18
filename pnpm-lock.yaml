@@ -25,7 +25,7 @@ importers:
         version: 4.8.3
       uWebSockets.js:
         specifier: github:uNetworking/uWebSockets.js#v20.58.0
-        version: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/ba110e817908b56c61d625b02f367b4ec9cfc8ab
+        version: git+https://git@github.com:uNetworking/uWebSockets.js.git#ba110e817908b56c61d625b02f367b4ec9cfc8ab
     devDependencies:
       '@types/node':
         specifier: ^20.19.34
@@ -452,8 +452,8 @@ packages:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
 
-  brace-expansion@5.0.3:
-    resolution: {integrity: sha512-fy6KJm2RawA5RcHkLa1z/ScpBeA762UF9KmZQxwIbDtRJrgLzM10depAiEQ+CXYcoiqW1/m96OAAoke2nE9EeA==}
+  brace-expansion@5.0.6:
+    resolution: {integrity: sha512-kLpxurY4Z4r9sgMsyG0Z9uzsBlgiU/EFKhj/h91/8yHu0edo7XuixOIH3VcJ8kkxs6/jPzoI6U9Vj3WqbMQ94g==}
     engines: {node: 18 || 20 || >=22}
 
   braces@3.0.3:
@@ -737,8 +737,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/ba110e817908b56c61d625b02f367b4ec9cfc8ab:
-    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/ba110e817908b56c61d625b02f367b4ec9cfc8ab}
+  uWebSockets.js@git+https://git@github.com:uNetworking/uWebSockets.js.git#ba110e817908b56c61d625b02f367b4ec9cfc8ab:
+    resolution: {commit: ba110e817908b56c61d625b02f367b4ec9cfc8ab, repo: git@github.com:uNetworking/uWebSockets.js.git, type: git}
     version: 20.58.0
 
   undefsafe@2.0.5:
@@ -1288,7 +1288,7 @@ snapshots:
 
   binary-extensions@2.3.0: {}
 
-  brace-expansion@5.0.3:
+  brace-expansion@5.0.6:
     dependencies:
       balanced-match: 4.0.4
 
@@ -1416,7 +1416,7 @@ snapshots:
 
   minimatch@10.2.4:
     dependencies:
-      brace-expansion: 5.0.3
+      brace-expansion: 5.0.6
 
   module-details-from-path@1.0.4: {}
 
@@ -1567,7 +1567,7 @@ snapshots:
 
   typescript@5.9.3: {}
 
-  uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/ba110e817908b56c61d625b02f367b4ec9cfc8ab: {}
+  uWebSockets.js@git+https://git@github.com:uNetworking/uWebSockets.js.git#ba110e817908b56c61d625b02f367b4ec9cfc8ab: {}
 
   undefsafe@2.0.5: {}
 
